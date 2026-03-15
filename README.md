@@ -378,4 +378,3 @@ Fred Fang — [lei.fang@maths.ox.ac.uk](mailto:lei.fang@maths.ox.ac.uk)
 ## Links
 
 - [Report Issues](https://github.com/FredFang1216/MARs/issues)
-- [Discussions](https://github.com/FredFang1216/MARs/discussions)
