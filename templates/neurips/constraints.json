@@ -1,0 +1,46 @@
+{
+  "page_limits": {
+    "main_body": 9,
+    "references": "unlimited",
+    "appendix": "unlimited",
+    "total_with_appendix": null
+  },
+  "structure": {
+    "required_sections": ["abstract", "introduction", "related-work", "methodology", "experiments", "conclusion"],
+    "optional_sections": ["results", "discussion", "limitations", "broader-impact"],
+    "appendix_typical": ["proofs", "additional-experiments", "implementation-details", "broader-impact"],
+    "abstract_word_limit": 200
+  },
+  "formatting": {
+    "columns": 2,
+    "font_size": "10pt",
+    "figure_placement": "top",
+    "table_style": "booktabs",
+    "citation_style": "natbib-author-year",
+    "max_figure_width_single_col": "\\columnwidth",
+    "max_figure_width_double_col": "\\textwidth"
+  },
+  "writing_guidelines": {
+    "main_body_strategy": "Dense, precise writing. Every sentence should carry information. Avoid filler.",
+    "figure_strategy": "Figures must be readable in print (no thin lines, adequate font sizes). Use vector graphics when possible.",
+    "table_strategy": "Use booktabs style. Bold best results. Include standard deviations.",
+    "proof_strategy": "Sketch in main body, full proofs in appendix.",
+    "related_work_placement": "After introduction or before conclusion (both accepted).",
+    "page_budget": {
+      "abstract": 0.25,
+      "introduction": 1.5,
+      "related-work": 1.0,
+      "methodology": 2.5,
+      "experiments": 2.5,
+      "results": 1.0,
+      "conclusion": 0.5
+    }
+  },
+  "common_pitfalls": [
+    "Exceeding 9-page main body limit (references/appendix are unlimited)",
+    "Missing broader impact or limitations discussion",
+    "Figures too small to read in two-column format",
+    "Not anonymizing the submission (no author names, no github links)",
+    "Using outdated NeurIPS style file"
+  ]
+}

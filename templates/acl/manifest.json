@@ -1,0 +1,18 @@
+{
+  "id": "acl",
+  "name": "ACL 2026",
+  "venue_type": "conference",
+  "field": "natural-language-processing",
+  "description": "Annual Meeting of the Association for Computational Linguistics. Top NLP venue with 8-page limit.",
+  "template_files": {
+    "main": "main.tex",
+    "style": "acl2024.sty",
+    "makefile": "Makefile"
+  },
+  "compilation": {
+    "engine": "pdflatex",
+    "bibtex": "bibtex",
+    "sequence": ["pdflatex", "bibtex", "pdflatex", "pdflatex"],
+    "extra_packages": ["acl2024", "latexsym"]
+  }
+}

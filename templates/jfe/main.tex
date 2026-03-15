@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+
+% ============================================================
+% Journal of Financial Economics (JFE) Style Setup
+% ============================================================
+% JFE uses a standard double-spaced, 12pt format for submissions.
+% Final camera-ready may use the journal's own class.
+
+% ============================================================
+% Standard Packages
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage[margin=1in]{geometry}
+
+% JFE requires double-spacing
+\doublespacing
+
+% ============================================================
+% Custom Commands
+% ============================================================
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Theorem environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+
+% ============================================================
+% Document Metadata
+% ============================================================
+\title{Paper Title}
+\author{Author Name\thanks{Affiliation. Email: author@university.edu.}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent
+Abstract text goes here. JFE abstracts are typically 100--150 words.
+\end{abstract}
+
+\textbf{JEL Classification:} G12, G14, C58
+
+\textbf{Keywords:} keyword1, keyword2, keyword3
+
+\newpage
+
+% ============================================================
+% Sections
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+\input{sections/introduction}
+
+\section{Related Literature}
+\label{sec:literature}
+
+\input{sections/literature}
+
+\section{Model}
+\label{sec:model}
+
+\input{sections/model}
+
+\section{Data}
+\label{sec:data}
+
+\input{sections/data}
+
+\section{Empirical Results}
+\label{sec:results}
+
+\input{sections/results}
+
+\section{Robustness}
+\label{sec:robustness}
+
+\input{sections/robustness}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+\input{sections/conclusion}
+
+% ============================================================
+% Bibliography
+% ============================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+% ============================================================
+% Appendix
+% ============================================================
+\newpage
+\appendix
+\section{Proofs}
+\label{app:proofs}
+
+\section{Additional Tables and Figures}
+\label{app:additional}
+
+\end{document}

@@ -1,0 +1,31 @@
+{
+  "page_limits": {
+    "main_body": "unlimited",
+    "references": "unlimited",
+    "appendix": "unlimited",
+    "total_with_appendix": null
+  },
+  "structure": {
+    "required_sections": ["abstract", "introduction", "conclusion"],
+    "optional_sections": ["related-work", "methodology", "experiments", "results", "discussion"],
+    "appendix_typical": ["proofs", "additional-results"],
+    "abstract_word_limit": "unlimited"
+  },
+  "formatting": {
+    "columns": 1,
+    "font_size": "11pt",
+    "figure_placement": "inline",
+    "table_style": "booktabs",
+    "citation_style": "natbib-author-year",
+    "max_figure_width_single_col": "\\textwidth"
+  },
+  "writing_guidelines": {
+    "main_body_strategy": "No specific constraints. Write as needed for the content.",
+    "proof_strategy": "No constraints. Include proofs wherever appropriate.",
+    "related_work_placement": "Author's choice.",
+    "page_budget": {}
+  },
+  "common_pitfalls": [
+    "No venue-specific pitfalls for custom template"
+  ]
+}

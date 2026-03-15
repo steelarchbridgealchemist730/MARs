@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "default_template": "neurips",
+  "templates": [
+    {
+      "id": "neurips",
+      "name": "NeurIPS 2026",
+      "aliases": ["neurips", "neurips2026", "nips"],
+      "venue_type": "conference",
+      "field": "machine-learning",
+      "path": "neurips"
+    },
+    {
+      "id": "icml",
+      "name": "ICML 2026",
+      "aliases": ["icml", "icml2026"],
+      "venue_type": "conference",
+      "field": "machine-learning",
+      "path": "icml"
+    },
+    {
+      "id": "aaai",
+      "name": "AAAI 2026",
+      "aliases": ["aaai", "aaai2026"],
+      "venue_type": "conference",
+      "field": "artificial-intelligence",
+      "path": "aaai"
+    },
+    {
+      "id": "acl",
+      "name": "ACL 2026",
+      "aliases": ["acl", "acl2026"],
+      "venue_type": "conference",
+      "field": "natural-language-processing",
+      "path": "acl"
+    },
+    {
+      "id": "jfe",
+      "name": "Journal of Financial Economics",
+      "aliases": ["jfe"],
+      "venue_type": "journal",
+      "field": "finance",
+      "path": "jfe"
+    },
+    {
+      "id": "rfs",
+      "name": "Review of Financial Studies",
+      "aliases": ["rfs"],
+      "venue_type": "journal",
+      "field": "finance",
+      "path": "rfs"
+    },
+    {
+      "id": "custom",
+      "name": "Custom Template",
+      "aliases": ["custom", "generic"],
+      "venue_type": "preprint",
+      "field": "general",
+      "path": "custom"
+    }
+  ]
+}

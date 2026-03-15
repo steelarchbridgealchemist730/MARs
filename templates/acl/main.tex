@@ -1,0 +1,71 @@
+\documentclass[11pt]{article}
+
+% ============================================================
+% ACL 2024 Style Setup
+% ============================================================
+\usepackage[hyperref]{acl2024}
+
+% ============================================================
+% Standard Packages
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{latexsym}
+
+% ============================================================
+% Custom Commands
+% ============================================================
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% ============================================================
+% Document Metadata
+% ============================================================
+\title{Paper Title}
+
+\author{
+  Author One \\
+  Affiliation One \\
+  \texttt{author1@example.com} \And
+  Author Two \\
+  Affiliation Two \\
+  \texttt{author2@example.com}
+}
+
+% ============================================================
+% Document Body
+% ============================================================
+\begin{document}
+
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related-work}
+\input{sections/methodology}
+\input{sections/experiments}
+\input{sections/results}
+\input{sections/conclusion}
+
+% ============================================================
+% References
+% ============================================================
+\bibliography{references}
+\bibliographystyle{acl_natbib}
+
+\end{document}

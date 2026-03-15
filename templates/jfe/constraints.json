@@ -1,0 +1,46 @@
+{
+  "page_limits": {
+    "main_body": 30,
+    "references": "unlimited",
+    "appendix": "unlimited",
+    "total_with_appendix": null
+  },
+  "structure": {
+    "required_sections": ["abstract", "introduction", "literature", "model", "data", "results", "conclusion"],
+    "optional_sections": ["robustness", "discussion", "extensions"],
+    "appendix_typical": ["proofs", "additional-tables", "variable-definitions"],
+    "abstract_word_limit": 150
+  },
+  "formatting": {
+    "columns": 1,
+    "font_size": "12pt",
+    "figure_placement": "inline",
+    "table_style": "booktabs",
+    "citation_style": "natbib-author-year",
+    "max_figure_width_single_col": "\\textwidth"
+  },
+  "writing_guidelines": {
+    "main_body_strategy": "Finance journals value clear economic intuition. Lead with the economic question, then formalize. Double-spaced submission.",
+    "figure_strategy": "Panels labeled (a), (b). Use time-series plots, cross-sectional sorts, or coefficient plots.",
+    "table_strategy": "Standard finance table format: panel structure, t-statistics in parentheses, significance stars.",
+    "proof_strategy": "Full proofs in appendix. Main text should contain proposition statements and economic intuition.",
+    "related_work_placement": "Separate literature review section after introduction.",
+    "page_budget": {
+      "abstract": 0.5,
+      "introduction": 5.0,
+      "literature": 3.0,
+      "model": 5.0,
+      "data": 4.0,
+      "results": 8.0,
+      "robustness": 3.0,
+      "conclusion": 2.0
+    }
+  },
+  "common_pitfalls": [
+    "Not leading with the economic question (jumping to methodology too quickly)",
+    "Missing JEL classification codes",
+    "Tables without t-statistics or standard errors",
+    "Not including robustness checks",
+    "Insufficient discussion of economic mechanism"
+  ]
+}

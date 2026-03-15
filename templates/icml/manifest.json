@@ -1,0 +1,18 @@
+{
+  "id": "icml",
+  "name": "ICML 2026",
+  "venue_type": "conference",
+  "field": "machine-learning",
+  "description": "International Conference on Machine Learning. Top ML venue with 8-page limit.",
+  "template_files": {
+    "main": "main.tex",
+    "style": "icml2024.sty",
+    "makefile": "Makefile"
+  },
+  "compilation": {
+    "engine": "pdflatex",
+    "bibtex": "bibtex",
+    "sequence": ["pdflatex", "bibtex", "pdflatex", "pdflatex"],
+    "extra_packages": ["icml2024"]
+  }
+}

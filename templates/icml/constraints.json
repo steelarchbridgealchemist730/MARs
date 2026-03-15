@@ -1,0 +1,46 @@
+{
+  "page_limits": {
+    "main_body": 8,
+    "references": "unlimited",
+    "appendix": "unlimited",
+    "total_with_appendix": null
+  },
+  "structure": {
+    "required_sections": ["abstract", "introduction", "related-work", "methodology", "experiments", "conclusion"],
+    "optional_sections": ["results", "discussion", "limitations"],
+    "appendix_typical": ["proofs", "additional-experiments", "hyperparameters", "compute-details"],
+    "abstract_word_limit": 200
+  },
+  "formatting": {
+    "columns": 2,
+    "font_size": "10pt",
+    "figure_placement": "top",
+    "table_style": "booktabs",
+    "citation_style": "icml-natbib",
+    "max_figure_width_single_col": "\\columnwidth",
+    "max_figure_width_double_col": "\\textwidth"
+  },
+  "writing_guidelines": {
+    "main_body_strategy": "Clear and concise. Focus on novelty and experimental rigor.",
+    "figure_strategy": "Use vector graphics. Ensure legibility in two-column layout.",
+    "table_strategy": "Booktabs style. Bold best values. Report confidence intervals.",
+    "proof_strategy": "Sketch in main body, full proofs in appendix.",
+    "related_work_placement": "Typically after introduction.",
+    "page_budget": {
+      "abstract": 0.25,
+      "introduction": 1.5,
+      "related-work": 1.0,
+      "methodology": 2.0,
+      "experiments": 2.0,
+      "results": 1.0,
+      "conclusion": 0.5
+    }
+  },
+  "common_pitfalls": [
+    "Exceeding 8-page main body limit",
+    "Not using the official ICML style file",
+    "Forgetting to include reproducibility details in appendix",
+    "Missing compute resource disclosure",
+    "Not anonymizing submission"
+  ]
+}

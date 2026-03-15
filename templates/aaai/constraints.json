@@ -1,0 +1,46 @@
+{
+  "page_limits": {
+    "main_body": 7,
+    "references": 1,
+    "appendix": 2,
+    "total_with_appendix": 10
+  },
+  "structure": {
+    "required_sections": ["abstract", "introduction", "related-work", "methodology", "experiments", "conclusion"],
+    "optional_sections": ["results", "discussion", "ethics"],
+    "appendix_typical": ["proofs", "additional-results"],
+    "abstract_word_limit": 150
+  },
+  "formatting": {
+    "columns": 2,
+    "font_size": "10pt",
+    "figure_placement": "top",
+    "table_style": "booktabs",
+    "citation_style": "aaai",
+    "max_figure_width_single_col": "\\columnwidth",
+    "max_figure_width_double_col": "\\textwidth"
+  },
+  "writing_guidelines": {
+    "main_body_strategy": "Tight writing. AAAI has stricter page limits than NeurIPS/ICML. Every paragraph must earn its space.",
+    "figure_strategy": "Minimize figures in main body due to space constraints. Place less critical figures in appendix.",
+    "table_strategy": "Compact tables. Consider combining related results.",
+    "proof_strategy": "Formal proofs preferred. Move lengthy proofs to appendix (max 2 extra pages).",
+    "related_work_placement": "After introduction.",
+    "page_budget": {
+      "abstract": 0.2,
+      "introduction": 1.0,
+      "related-work": 0.8,
+      "methodology": 2.0,
+      "experiments": 2.0,
+      "results": 0.75,
+      "conclusion": 0.5
+    }
+  },
+  "common_pitfalls": [
+    "Exceeding 7+1+2 page limit (7 main + 1 references + 2 appendix)",
+    "Not using AAAI-specific bibliography style",
+    "Missing ethics statement",
+    "Using Times New Roman alternatives not accepted by AAAI",
+    "Incorrect PDF metadata"
+  ]
+}

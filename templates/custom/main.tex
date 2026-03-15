@@ -1,0 +1,69 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================================
+% Standard Packages
+% ============================================================
+\usepackage[utf8]{inputenc}   % UTF-8 input encoding
+\usepackage[T1]{fontenc}      % T1 font encoding
+\usepackage{amsmath}          % Math environments and commands
+\usepackage{amssymb}          % Additional math symbols
+\usepackage{amsthm}           % Theorem environments
+\usepackage{graphicx}         % Include graphics
+\usepackage{booktabs}         % Professional-quality tables
+\usepackage{hyperref}         % Hyperlinks and cross-references
+\usepackage{url}              % URL formatting
+\usepackage{natbib}           % Bibliography (author-year citations)
+\usepackage{microtype}        % Microtypographic enhancements
+\usepackage{xcolor}           % Color support
+\usepackage{algorithm}        % Algorithm float environment
+\usepackage{algorithmic}      % Algorithmic pseudo-code
+\usepackage[margin=1in]{geometry} % Page margins
+
+% ============================================================
+% Custom Commands (optional)
+% ============================================================
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% ============================================================
+% Document Metadata
+% ============================================================
+\title{Paper Title}
+
+\author{
+  Author One \\
+  Affiliation \\
+  \texttt{author1@example.com}
+  \and
+  Author Two \\
+  Affiliation \\
+  \texttt{author2@example.com}
+}
+
+\date{\today}
+
+% ============================================================
+% Document Body
+% ============================================================
+\begin{document}
+
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related-work}
+\input{sections/methodology}
+\input{sections/experiments}
+\input{sections/results}
+\input{sections/conclusion}
+
+% ============================================================
+% References
+% ============================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

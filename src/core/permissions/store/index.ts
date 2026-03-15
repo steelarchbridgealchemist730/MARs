@@ -1,0 +1,1 @@
+export { savePermission } from './savePermission'

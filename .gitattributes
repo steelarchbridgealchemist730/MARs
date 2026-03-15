@@ -1,0 +1,9 @@
+# Enforce LF line endings for all text files to prevent Windows CRLF issues in CI
+* text=auto eol=lf
+
+# Explicitly mark binary files
+*.wasm binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary

@@ -1,0 +1,46 @@
+{
+  "page_limits": {
+    "main_body": 8,
+    "references": "unlimited",
+    "appendix": "unlimited",
+    "total_with_appendix": null
+  },
+  "structure": {
+    "required_sections": ["abstract", "introduction", "related-work", "methodology", "experiments", "conclusion"],
+    "optional_sections": ["results", "error-analysis", "limitations", "ethics"],
+    "appendix_typical": ["annotation-guidelines", "dataset-details", "additional-results", "hyperparameters"],
+    "abstract_word_limit": 200
+  },
+  "formatting": {
+    "columns": 2,
+    "font_size": "11pt",
+    "figure_placement": "top",
+    "table_style": "booktabs",
+    "citation_style": "acl-natbib",
+    "max_figure_width_single_col": "\\columnwidth",
+    "max_figure_width_double_col": "\\textwidth"
+  },
+  "writing_guidelines": {
+    "main_body_strategy": "Clear exposition with strong empirical evaluation. NLP community expects thorough error analysis.",
+    "figure_strategy": "Include example outputs, attention visualizations, or pipeline diagrams.",
+    "table_strategy": "Standard result tables with bolded best results. Include multiple baselines.",
+    "proof_strategy": "Formal proofs uncommon in NLP. Focus on empirical evidence.",
+    "related_work_placement": "After introduction. Discuss both NLP and relevant ML work.",
+    "page_budget": {
+      "abstract": 0.25,
+      "introduction": 1.5,
+      "related-work": 1.0,
+      "methodology": 2.0,
+      "experiments": 2.0,
+      "results": 1.0,
+      "conclusion": 0.5
+    }
+  },
+  "common_pitfalls": [
+    "Exceeding 8-page main body limit",
+    "Missing limitations section (required since ACL 2023)",
+    "Not including ethical considerations",
+    "Insufficient error analysis",
+    "Not comparing against recent strong baselines"
+  ]
+}

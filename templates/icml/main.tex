@@ -1,0 +1,78 @@
+\documentclass{article}
+
+% ============================================================
+% ICML 2024 Style Setup
+% ============================================================
+\usepackage{icml2024}
+
+% ============================================================
+% Standard Packages
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% ============================================================
+% Custom Commands
+% ============================================================
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% ============================================================
+% Document Metadata
+% ============================================================
+\icmltitlerunning{Paper Title}
+
+\begin{document}
+
+\twocolumn[
+\icmltitle{Paper Title}
+
+\icmlsetsymbol{equal}{*}
+
+\begin{icmlauthorlist}
+\icmlauthor{Author One}{aff1}
+\icmlauthor{Author Two}{aff2}
+\end{icmlauthorlist}
+
+\icmlaffiliation{aff1}{Affiliation One}
+\icmlaffiliation{aff2}{Affiliation Two}
+
+\icmlcorrespondingauthor{Author One}{author1@example.com}
+
+\icmlkeywords{Machine Learning, ICML}
+
+\vskip 0.3in
+]
+
+\printAffiliationsAndNotice{}
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related-work}
+\input{sections/methodology}
+\input{sections/experiments}
+\input{sections/results}
+\input{sections/conclusion}
+
+% ============================================================
+% References
+% ============================================================
+\bibliography{references}
+\bibliographystyle{icml2024}
+
+\end{document}

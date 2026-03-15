@@ -1,0 +1,78 @@
+\documentclass[letterpaper]{article}
+
+% ============================================================
+% AAAI 2024 Style Setup
+% ============================================================
+\usepackage{aaai24}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+
+% ============================================================
+% Standard Packages
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% ============================================================
+% Custom Commands
+% ============================================================
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% ============================================================
+% AAAI Metadata
+% ============================================================
+\pdfinfo{
+/Title (Paper Title)
+/Author (Author One, Author Two)
+}
+
+\setcounter{secnumdepth}{2}
+
+% ============================================================
+% Document Body
+% ============================================================
+\begin{document}
+
+\title{Paper Title}
+\author{
+  Author One\textsuperscript{1},
+  Author Two\textsuperscript{2} \\
+  \textsuperscript{1}Affiliation One,
+  \textsuperscript{2}Affiliation Two \\
+  author1@example.com, author2@example.com
+}
+
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related-work}
+\input{sections/methodology}
+\input{sections/experiments}
+\input{sections/results}
+\input{sections/conclusion}
+
+% ============================================================
+% References
+% ============================================================
+\bibliography{references}
+\bibliographystyle{aaai}
+
+\end{document}

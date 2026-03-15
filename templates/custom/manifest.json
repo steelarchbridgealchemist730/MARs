@@ -1,0 +1,17 @@
+{
+  "id": "custom",
+  "name": "Custom Template",
+  "venue_type": "preprint",
+  "field": "general",
+  "description": "Generic article template with no venue-specific constraints. Good for preprints or custom venues.",
+  "template_files": {
+    "main": "main.tex",
+    "makefile": "Makefile"
+  },
+  "compilation": {
+    "engine": "pdflatex",
+    "bibtex": "bibtex",
+    "sequence": ["pdflatex", "bibtex", "pdflatex", "pdflatex"],
+    "extra_packages": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "aaai",
+  "name": "AAAI 2026",
+  "venue_type": "conference",
+  "field": "artificial-intelligence",
+  "description": "AAAI Conference on Artificial Intelligence. Broad AI venue with 7-page limit.",
+  "template_files": {
+    "main": "main.tex",
+    "style": "aaai24.sty",
+    "makefile": "Makefile"
+  },
+  "compilation": {
+    "engine": "pdflatex",
+    "bibtex": "bibtex",
+    "sequence": ["pdflatex", "bibtex", "pdflatex", "pdflatex"],
+    "extra_packages": ["aaai24", "times", "helvet", "courier"]
+  }
+}

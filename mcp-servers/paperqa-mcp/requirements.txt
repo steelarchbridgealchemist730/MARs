@@ -1,0 +1,4 @@
+paper-qa>=5.0.0
+mcp[server]>=1.0.0
+uvicorn>=0.30.0
+starlette>=0.38.0

@@ -1,0 +1,46 @@
+{
+  "page_limits": {
+    "main_body": 30,
+    "references": "unlimited",
+    "appendix": "unlimited",
+    "total_with_appendix": null
+  },
+  "structure": {
+    "required_sections": ["abstract", "introduction", "literature", "theory", "data", "results", "conclusion"],
+    "optional_sections": ["discussion", "robustness", "extensions"],
+    "appendix_typical": ["proofs", "supplementary-tables", "variable-definitions"],
+    "abstract_word_limit": 200
+  },
+  "formatting": {
+    "columns": 1,
+    "font_size": "12pt",
+    "figure_placement": "inline",
+    "table_style": "booktabs",
+    "citation_style": "natbib-author-year",
+    "max_figure_width_single_col": "\\textwidth"
+  },
+  "writing_guidelines": {
+    "main_body_strategy": "RFS values theoretical rigor combined with empirical evidence. Balance theory and data.",
+    "figure_strategy": "Standard finance figures. Time-series, cross-sectional sorts, or model-implied vs. realized.",
+    "table_strategy": "Standard finance table format: panel structure, robust standard errors, significance stars.",
+    "proof_strategy": "Full proofs in appendix. Main body includes proposition statements and economic intuition.",
+    "related_work_placement": "Separate literature review section after introduction.",
+    "page_budget": {
+      "abstract": 0.5,
+      "introduction": 5.0,
+      "literature": 3.0,
+      "theory": 5.0,
+      "data": 4.0,
+      "results": 8.0,
+      "discussion": 2.0,
+      "conclusion": 2.0
+    }
+  },
+  "common_pitfalls": [
+    "Not motivating the economic question clearly enough",
+    "Missing JEL classification codes",
+    "Weak identification strategy discussion",
+    "Tables without robust standard errors",
+    "Not addressing endogeneity concerns"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "jfe",
+  "name": "Journal of Financial Economics",
+  "venue_type": "journal",
+  "field": "finance",
+  "description": "Top-3 finance journal. Double-spaced, single-column, ~30 page submissions.",
+  "template_files": {
+    "main": "main.tex",
+    "makefile": "Makefile"
+  },
+  "compilation": {
+    "engine": "pdflatex",
+    "bibtex": "bibtex",
+    "sequence": ["pdflatex", "bibtex", "pdflatex", "pdflatex"],
+    "extra_packages": ["setspace", "geometry"]
+  }
+}

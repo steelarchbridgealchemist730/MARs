@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+
+% ============================================================
+% Review of Financial Studies (RFS) Style Setup
+% ============================================================
+% RFS uses a standard double-spaced, 12pt format for submissions.
+% Final camera-ready uses the journal's own class.
+
+% ============================================================
+% Standard Packages
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage[margin=1in]{geometry}
+
+% RFS requires double-spacing
+\doublespacing
+
+% ============================================================
+% Custom Commands
+% ============================================================
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Theorem environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+
+% ============================================================
+% Document Metadata
+% ============================================================
+\title{Paper Title}
+\author{Author Name\thanks{Affiliation. Email: author@university.edu.}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent
+Abstract text goes here. RFS abstracts are typically 100--200 words.
+\end{abstract}
+
+\textbf{JEL Classification:} G12, G14, C58
+
+\textbf{Keywords:} keyword1, keyword2, keyword3
+
+\newpage
+
+% ============================================================
+% Sections
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+\input{sections/introduction}
+
+\section{Literature Review}
+\label{sec:literature}
+
+\input{sections/literature}
+
+\section{Theoretical Framework}
+\label{sec:theory}
+
+\input{sections/theory}
+
+\section{Data and Methodology}
+\label{sec:data}
+
+\input{sections/data}
+
+\section{Results}
+\label{sec:results}
+
+\input{sections/results}
+
+\section{Discussion}
+\label{sec:discussion}
+
+\input{sections/discussion}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+\input{sections/conclusion}
+
+% ============================================================
+% Bibliography
+% ============================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+% ============================================================
+% Appendix
+% ============================================================
+\newpage
+\appendix
+\section{Mathematical Proofs}
+\label{app:proofs}
+
+\section{Supplementary Tables and Figures}
+\label{app:supplementary}
+
+\end{document}

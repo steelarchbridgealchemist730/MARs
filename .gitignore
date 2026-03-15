@@ -1,0 +1,50 @@
+.DS_Store
+.env
+.env.*.local
+
+node_modules/
+dist/
+coverage/
+
+.tmp/
+.tmp-*/
+.tmp-kode-config/
+
+*.log
+
+# Local task files
+todo_tasks.json
+todo_tasks_detail.md
+
+# Private config
+CLAUDE.md
+.claude/
+.kode/
+
+# API keys
+CLAUDE_API
+OPENAI_API
+
+# Internal / private documents
+ISSUE.md
+PROGRESS.md
+DEPLOYMENT_GUIDE.md
+agent.md
+claude_paper.md
+claude_paper_v2.md
+claude_paper_v3.md
+docs/PUBLISH.md
+docs/PUBLISH_GUIDE.md
+
+# Implementation logs / design docs (not for release)
+lab.md
+writer.md
+knowledge.md
+
+# Runtime config (may contain API keys)
+.claude-paper/
+.claude-paper-research/
+
+# Test files
+main.js
+
