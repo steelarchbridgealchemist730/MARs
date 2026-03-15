@@ -9,7 +9,7 @@
     "node": ">=20.18.1"
   },
   "main": "cli.js",
-  "author": "Claude Paper Contributors",
+  "author": "Fred Fang <lei.fang@maths.ox.ac.uk>",
   "license": "Apache-2.0",
   "description": "End-to-end autonomous academic research system — from literature review to paper submission.",
   "homepage": "https://github.com/FredFang1216/MARs",

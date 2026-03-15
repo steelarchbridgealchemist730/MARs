@@ -371,6 +371,10 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 Based on [Kode-Agent](https://github.com/shareAI-lab/Kode) by ShareAI Lab. Rebranded and extensively rebuilt for autonomous academic research.
 
+## Author
+
+Fred Fang — [lei.fang@maths.ox.ac.uk](mailto:lei.fang@maths.ox.ac.uk)
+
 ## Links
 
 - [Report Issues](https://github.com/FredFang1216/MARs/issues)
